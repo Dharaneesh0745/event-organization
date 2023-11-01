@@ -1,7 +1,14 @@
 import React from "react";
 
+import { EventList } from "@/components/user/event-list";
+import { Navbar } from "@/components/user/navbar";
+
 const UserHomePage = () => {
-  return <div>UserHomePage</div>;
+  return (
+    <>
+      <EventList />
+    </>
+  );
 };
 
 export default UserHomePage;
